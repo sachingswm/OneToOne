@@ -1,0 +1,9 @@
+package com.example.onetoone.repositories;
+
+import com.example.onetoone.entities.unidirectional.Processor;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProcessorDao extends JpaRepository<Processor,Integer> {
+}
